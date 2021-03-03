@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Voom Firebase Auth Web Login</title>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.css" />
+
+</head>
+<body>
+         <h1 style="text-align: center;">Login To Voom</h1>
+         <div id="firebaseui-auth-container"></div>
+         <div id="main_container" style="display:none;">
+             <h1>Voom!</h1>
+             <button onclick="mainApp.logout();">logout</button>
+
+
+         </div>
+         <script src="fireBase.js"></script>
+         <script src="main.js"></script>
+        <script src="login.js"></script>
+</body>
+</html>
